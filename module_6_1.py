@@ -31,9 +31,6 @@ class Flower(Plant):
 class Fruit(Plant):
     edible = True
 
-    def __init__(self, name):
-        super().__init__(name)
-
 a1 = Predator('Волк с Уолл-Стрит')
 a2 = Mammal('Хатико')
 p1 = Flower('Цветик семицветик')
