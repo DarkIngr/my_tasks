@@ -2,7 +2,6 @@ from os import walk
 from os.path import join, getmtime, getsize, dirname
 from time import strftime, localtime
 
-directory = r'C:\Users\Алекс\PycharmProjects\pythonProject4\module_7_5.py'
 def show_path_info(directory):
     for root, dirs, files in walk(directory):
         for file in files:
